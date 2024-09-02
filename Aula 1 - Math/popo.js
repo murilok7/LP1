@@ -25,5 +25,12 @@ console.log(Math.min(7, 45, 89, 2, 125))
 console.log(Math.max(7, 45, 89, 2, 125))
 
 let Numaleatorio = Math.floor(Math.random() * 10)
-
 console.log(Numaleatorio)
+
+const numero1 = prompt("Digite um número")
+const numero2 = prompt("Digite outro número")
+
+let media = (numero1 + numero2) / 2
+
+console.log(`A média é: ${Math.round(media)}`)
+
